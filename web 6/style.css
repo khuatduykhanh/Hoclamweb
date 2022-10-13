@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+
+}
+.hinh-nen {
+    width: 100%;
+    height: 650px;
+    background-image: url('hinh.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noi-dung {
+	width: 800px;
+	height: 425px;
+	background-color: #13111194;
+}
+.chu {
+	margin-top: 40px;
+	color: white;
+	background-color: #13111100;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.chu-duoi {
+	font-size:21px;
+	color: #B5B9BE;
+	text-align: center;
+	background-color:  #13111100;
+	margin-left: 70px;
+	margin-right: 70px;
+    margin-top: 20px;
+}
+.khoi-trang {
+	margin: auto;
+	background-color: white;
+	width: 700px;
+	height: 50px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.khoi-trang i {
+	background-color: #0092CE;
+	color: white;
+	height: 50px;
+	width: 63px;
+	text-align: center;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.khoi {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.khoi-trong {
+	color: white;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.khoi-trong i {
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.khoi-trong p {
+	font-size: 14px;
+	width:150px;
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

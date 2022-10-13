@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>đối tượng</title>
+	<meta charset="utf-8">
+<script>
+	function displayinfo(){
+	document.write("<h1> Employee profile: " + this.name + "</h1>");
+	document.write(" Employee number: " + this.number);
+	document.write(" social security number: " + this.socsec);
+	document.write("annual salary: " + this.salary);
+     }
+     function employee {
+     	this.name=prompt("enter employee's name","name");
+     	this.number=prompt("enter employee number's for" + this.name,"000-000");
+     	this.socsec=prompt("enter social security number for" + this.name,"000-00-0000");
+     	this.name=prompt("enter annual salary for" + this.name,"$00,000");
+     	this.displayinfo=displayinfo();
+     }
+     newemployee= new employee();
+</script>
+</head>
+<body>
+	<script>
+     newemployee.displayinfo();
+     </script>
+</body>
+</html>
